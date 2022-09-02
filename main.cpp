@@ -56,34 +56,35 @@ void part_2() {
     x = x3 * x3 * x2 * x; // 21
     cout << x << "\n";
     // Task 5
-    cout << "last number\n";
+    cout << "last number:\n";
     cin >> input;
     cout << input % 10 << "\n";
     // Task 6
-    cout << "second number\n";
+    cout << "second number (type two-digit):\n";
     cin >> input;
     cout << input / 10 << "\n";
     // Task 7
-    cout << "second number v.2\n";
+    cout << "second number v.2 (type three-digit):\n";
     cin >> input;
     cout << input % 100 / 10 << "\n";
     // Task 8
-    cout << "number sum\n";
+    cout << "number sum (type three-digit):\n";
     cin >> input;
     cout << input / 100 + input % 100 / 10 + input % 10 << "\n";
     // Task 9
-    cout << "Вася\n"
+    cout << "Vasya on circle of pain at 109 km\n"
             "speed v:";
     cin >> x;
     cout << "time t:";
     cin >> x2;
     cout << x * x2 % 109 << "\n";
     // Task 10
-    cout << "minutes\n";
+    cout << "minutes to digital clock\n";
     cin >> x;
     cout << x / 60 % 24 << ":" << x % 60 << "\n";
     // Task 11
-    cout << "h\n";
+    cout << "angle relative to 12 o'clock\n"
+             << "h\n";
     cin >> x;
     cout << "m\n";
     cin >> x2;
@@ -95,7 +96,7 @@ void part_2() {
 
 int main() {
 
-    // part_1();
+    part_1();
     part_2();
 
     return 0;
